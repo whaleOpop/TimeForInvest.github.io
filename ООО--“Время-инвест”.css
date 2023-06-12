@@ -100,19 +100,23 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 561px;
+    min-height: 579px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 89px;
-    margin-bottom: 0;
+    margin-top: 106px;
+    margin-bottom: 30px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 443px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 0;
   }
 
   .u-section-1 .u-group-elements-1 {
@@ -126,7 +130,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 335px;
+    min-height: 443px;
   }
 
   .u-section-1 .u-image-1 {
