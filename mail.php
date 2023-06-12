@@ -5,7 +5,6 @@ $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['user_name'];
-$phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
 $lastname =$_POST['user_lastname']
 $problems = $_POST['user_problems']
@@ -30,7 +29,7 @@ $mail->addAddress('al-agabani-kit@yandex.ru');     // Кому будет ухо
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email .'<br>Фамилия пользователя:' .$lastname '<br> Проблема пользователя' .$problems;
+$mail->Body    = '' .$name. '<br>Почта этого пользователя: ' .$email.'<br>Фамилия пользователя:' .$lastname. '<br> Проблема пользователя' .$problems.;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
