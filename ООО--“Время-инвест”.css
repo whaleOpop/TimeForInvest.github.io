@@ -71,11 +71,12 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 647px;
+    min-height: 556px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 49px;
+    margin-top: 117px;
+    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -493,7 +494,7 @@
   font-size: 3.125rem;
   font-weight: 900;
   line-height: 1.779;
-  margin: 2px 180px 0;
+  margin: 2px auto 0;
 }
 
 .u-section-3 .u-gallery-1 {
@@ -592,18 +593,17 @@
 
 @media (max-width: 1199px) {
    .u-section-3 {
-    min-height: 908px;
+    min-height: 718px;
   }
 
   .u-section-3 .u-text-1 {
-    width: 672px;
-    margin-top: 82px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
+    margin-top: 13px;
   }
 
   .u-section-3 .u-gallery-1 {
-    margin-top: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .u-section-3 .u-gallery-nav-1 {
@@ -616,6 +616,10 @@
 }
 
 @media (max-width: 991px) {
+   .u-section-3 {
+    min-height: 908px;
+  }
+
   .u-section-3 .u-back-image-1 {
     width: 574px;
   }
@@ -644,16 +648,11 @@
 
   .u-section-3 .u-text-1 {
     font-size: 1.875rem;
-    margin-right: calc(((100% - 576px) / 2) + 155px);
-    margin-left: 80px;
-    width: 576px;
     margin-top: 2px;
   }
 
   .u-section-3 .u-gallery-1 {
     height: 638px;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .u-section-3 .u-back-image-1 {
@@ -684,10 +683,7 @@
 
   .u-section-3 .u-text-1 {
     font-size: 1.5rem;
-    width: 330px;
     margin-top: 31px;
-    margin-left: auto;
-    margin-right: auto;
   }
 } .u-section-4 {
   background-image: url("images/Group130.png");
@@ -703,7 +699,6 @@
   font-size: 3.125rem;
   font-weight: 900;
   line-height: 1.779;
-  width: 1080px;
   margin: 2px auto 0;
 }
 
@@ -808,7 +803,6 @@
 
   .u-section-4 .u-text-1 {
     margin-top: 0;
-    width: 992px;
   }
 
   .u-section-4 .u-text-2 {
@@ -842,10 +836,6 @@
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
     min-height: 7671px;
-  }
-
-  .u-section-4 .u-text-1 {
-    width: 768px;
   }
 
   .u-section-4 .u-text-2 {
@@ -896,9 +886,6 @@
 
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
-    width: auto;
-    margin-right: 221px;
-    margin-left: 40px;
   }
 
   .u-section-4 .u-text-2 {
@@ -931,8 +918,6 @@
 
   .u-section-4 .u-text-1 {
     font-size: 1.5rem;
-    margin-left: 8px;
-    margin-right: 8px;
   }
 
   .u-section-4 .u-btn-1 {
